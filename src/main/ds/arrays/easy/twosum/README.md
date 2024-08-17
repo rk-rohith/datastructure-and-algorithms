@@ -67,3 +67,9 @@ public static int[] twoSum(int[] nums, int target) {
 
         return null;
     }
+```
+<p><strong>Time Complexity:</strong></p>
+<p>The time complexity of this solution is <code>O(n)</code>, where <code>n</code> is the number of elements in the array. This is because we traverse the array once, and each lookup and insertion operation in the HashMap takes <code>O(1)</code> time on average.</p>
+
+<p><strong>Space Complexity:</strong></p>
+<p>The space complexity is <code>O(n)</code>, where <code>n</code> is the number of elements in the array. This is because, in the worst case, we might store all <code>n</code> elements in the HashMap.</p>
