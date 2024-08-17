@@ -1,9 +1,9 @@
-package ds.arrrays.Easy.twosum;
+package ds.arrays.easy.twosum;
 
 import java.util.HashMap;
 import java.util.Map;
 
-class twoSum {
+class TwoSum {
     public static void main(String[] args) {
         // Test the solution with the given example
         int[] nums = {2, 11, 15, 7};
